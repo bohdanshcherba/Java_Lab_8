@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\App.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\App.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="16" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
@@ -15,7 +15,7 @@
 <error line="26" column="61" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
 <error line="26" column="62" severity="error" message="&apos;120&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\Cosmetic.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\Cosmetic.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="16" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="17" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -29,13 +29,13 @@
 <error line="24" column="21" severity="error" message="Parameter manufacturingProcess should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="24" column="42" severity="error" message="&apos;manufacturingProcess&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\Gender.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\Gender.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="6" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\goods\Makeup.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\goods\Makeup.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="13" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -50,7 +50,7 @@
 <error line="21" column="26" severity="error" message="Name &apos;Attributes&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
 <error line="26" column="5" severity="error" message="Class &apos;Makeup&apos; looks like designed for extension (can be subclassed), but the method &apos;toString&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Makeup&apos; final or making the method &apos;toString&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\goods\SkinCare.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\goods\SkinCare.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="13" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -75,13 +75,13 @@
 <error line="36" column="66" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
 <error line="37" column="45" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\ManufacturingProcess.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\ManufacturingProcess.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="6" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmeticTools\CosmeticTools.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmeticTools\CosmeticTools.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="16" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
@@ -92,7 +92,7 @@
 <error line="20" column="26" severity="error" message="Parameter professional should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="20" column="34" severity="error" message="&apos;professional&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmeticTools\goods\MakeupBrushes.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmeticTools\goods\MakeupBrushes.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="11" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -109,7 +109,7 @@
 <error line="16" column="52" severity="error" message="&apos;rigidity&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="22" column="5" severity="error" message="Class &apos;MakeupBrushes&apos; looks like designed for extension (can be subclassed), but the method &apos;toString&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MakeupBrushes&apos; final or making the method &apos;toString&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\Items.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\Items.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="11" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -117,12 +117,12 @@
 <error line="13" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\ItemType.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\ItemType.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="12" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -141,7 +141,7 @@
 <error line="39" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="39" column="30" severity="error" message="Parameter type should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 </file>
-<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\manager\SortOrder.java">
+<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\manager\SortOrder.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="4" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
