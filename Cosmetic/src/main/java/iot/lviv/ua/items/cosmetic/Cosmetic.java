@@ -4,11 +4,9 @@ import iot.lviv.ua.items.ItemType;
 import iot.lviv.ua.items.Items;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
-@EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
 public class Cosmetic extends Items {
@@ -22,7 +20,7 @@ public class Cosmetic extends Items {
                     ItemType type,
                     Gender gender,
                     ManufacturingProcess manufacturingProcess) {
-        super(name, price, producer, ItemType.COSMETIC);
+        super(name, price, producer, type);
         this.gender = gender;
         this.manufacturingProcess = manufacturingProcess;
     }

@@ -2,19 +2,19 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.21.0" timestamp="2021-04-21T11:28:46.556">
-<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmeticTools\CosmeticTools.java">
+    version="6.21.0" timestamp="2021-04-25T13:16:48.439">
+<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmeticTools\CosmeticTools.java">
 <violation beginline="19" endline="19" begincolumn="35" endcolumn="38" rule="UnusedFormalParameter" ruleset="Best Practices" package="iot.lviv.ua.items.cosmeticTools" class="CosmeticTools" method="CosmeticTools" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
 Avoid unused constructor parameters such as 'type'.
 </violation>
 </file>
-<file name="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\Cosmetic.java">
-<violation beginline="22" endline="22" begincolumn="30" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" package="iot.lviv.ua.items.cosmetic" class="Cosmetic" method="Cosmetic" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+<file name="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\items\cosmetic\Cosmetic.java">
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" package="iot.lviv.ua.items.cosmetic" class="Cosmetic" method="Cosmetic" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
 Avoid unused constructor parameters such as 'type'.
 </violation>
 </file>
-<error filename="B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java" msg="PMDException: Error while parsing B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java">
-<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing B:\javaLabs\lab8\main\Java_Lab_8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java
+<error filename="B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java" msg="PMDException: Error while parsing B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing B:\javaLabs\lab8\Cosmetic\src\main\java\iot\lviv\ua\manager\CosmeticManager.java
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:110)
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:89)
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:51)

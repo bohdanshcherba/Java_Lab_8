@@ -20,7 +20,8 @@ public class App {
                 Gender.FEMALE, ManufacturingProcess.HandMade, "some");
         SkinCare skinCare = new SkinCare("Rainbow Colors", (double) 9.12,
                 "maven", ItemType.COSMETIC,
-                Gender.FEMALE, ManufacturingProcess.MachineMade, "white", "plastic");
+                Gender.FEMALE, ManufacturingProcess.MachineMade,
+                "white", "plastic");
         MakeupBrushes makeupBrushes = new MakeupBrushes("Collection brushes",
                 (double) 22.2, "Cheburechna",
                 ItemType.COSMETIC_TOOLS, true, (int)22, (int)120);
@@ -37,9 +38,7 @@ public class App {
         System.out.println("Sorted");
         cosmeticManager.sortByPrice(SortOrder.DESC);
 
-        System.out.println("Search Cosmetic");
+        System.out.println("Search Cosmetic tools");
         cosmeticManager.searchByType(ItemType.COSMETIC_TOOLS);
-
-
     }
 }

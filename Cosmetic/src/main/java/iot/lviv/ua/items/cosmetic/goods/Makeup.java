@@ -18,9 +18,9 @@ public class Makeup extends Cosmetic {
                   ItemType type,
                   Gender gender,
                   ManufacturingProcess manufacturingProcess,
-                  String Attributes) {
+                  String attributes) {
         super(name, price, producer, type, gender, manufacturingProcess);
-        this.makeupAttributes = Attributes;
+        this.makeupAttributes = attributes;
     }
 
     @Override

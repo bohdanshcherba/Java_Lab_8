@@ -21,7 +21,7 @@ public class CosmeticTools extends Items {
         super(name,
                 price,
                 producer,
-                ItemType.COSMETIC_TOOLS);
+                type);
         this.professional = professional;
     }
 }

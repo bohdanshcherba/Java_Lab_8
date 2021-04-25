@@ -28,13 +28,13 @@ public class SkinCare extends Cosmetic {
 
     @Override
     public String toString() {
-        return "Item type: " + getType() + "\n" +
-                "Name: " + getName() + "\n" +
-                "Price: " + getPrice() + "$\n" +
-                "Producer: " + getProducer() + "\n" +
-                "professional: " + getGender() + "\n" +
-                "Length mm: " + getManufacturingProcess() + "\n" +
-                "Skin type: " + skin + "\n" +
-                "Attributes: " + attributes + "\n";
+        return "Item type: " + getType() + "\n"
+                + "Name: " + getName() + "\n"
+                + "Price: " + getPrice() + "$\n"
+                + "Producer: " + getProducer() + "\n"
+                + "professional: " + getGender() + "\n"
+                + "Length mm: " + getManufacturingProcess() + "\n"
+                + "Skin type: " + skin + "\n"
+                + "Attributes: " + attributes + "\n";
     }
 }
