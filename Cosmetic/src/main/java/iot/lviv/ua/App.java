@@ -26,12 +26,14 @@ public class App {
                 (double) 22.2, "Cheburechna",
                 ItemType.COSMETIC_TOOLS, true, (int)22, (int)120);
 
+
         List<Items> arrayOfItems = new ArrayList<Items>();
         arrayOfItems.add(skinCare);
         arrayOfItems.add(makeup);
         arrayOfItems.add(makeupBrushes);
 
         CosmeticManager cosmeticManager = new CosmeticManager(arrayOfItems);
+
 
         System.out.println("All");
         cosmeticManager.printAllItems();
