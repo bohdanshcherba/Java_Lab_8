@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Cosmetic/Cosmetic.iml" filepath="$PROJECT_DIR$/Cosmetic/Cosmetic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Lab_8.iml" filepath="$PROJECT_DIR$/.idea/Java_Lab_8.iml" />
     </modules>
   </component>
