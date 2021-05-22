@@ -51,12 +51,3 @@ public class OrderController {
 }
 
 
-//{
-//        "name":"sss",
-//        "price":22,
-//        "producer":"chine",
-//        "professional":"true",
-//        "lengthMm":22,
-//        "rigidity":22
-//
-//        }
