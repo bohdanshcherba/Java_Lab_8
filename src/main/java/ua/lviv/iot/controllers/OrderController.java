@@ -1,52 +1,61 @@
 package ua.lviv.iot.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ua.lviv.iot.models.cosmeticTools.goods.MakeupBrushes;
+import ua.lviv.iot.service.ItemService;
+
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @RestController
-@RequestMapping(path = "/brushes/")
+@RequestMapping(path = "/brushes")
 public class OrderController {
 
-    private final Map<Integer, MakeupBrushes> brushes = new HashMap<>();
-
-    private final AtomicInteger idCounter = new AtomicInteger();
+    @Autowired(required = false)
+    private ItemService itemService;
 
     @GetMapping
-    public List<MakeupBrushes>getBrushes() {
-        return new LinkedList<MakeupBrushes>(brushes.values());
+    public List<MakeupBrushes>getAllBrushes() {
+        return itemService.getAllBrushes();
     }
 
-    @GetMapping(path = "/{id}")
-    public MakeupBrushes getBrushes(final @PathVariable("id") Integer brushesId) {
-        return brushes.get(brushesId);
+    @GetMapping("/{id}")
+    public Object getBrush(@PathVariable(name = "id") Integer id) {
+        if (itemService.getBrush(id) != null) {
+            return itemService.getBrush(id);
+        } else {
+            return new ResponseEntity<MakeupBrushes>(HttpStatus.NOT_FOUND);
+        }
     }
 
-    @PostMapping(produces = {MediaType.APPLICATION_JSON_VALUE})
-    public MakeupBrushes createBrushes(@RequestBody MakeupBrushes brush) {
-
-        brush.setId(idCounter.incrementAndGet());
-        this.brushes.put(brush.getId(), brush);
-
-        return brush;
+    @PostMapping()
+    public MakeupBrushes addBrush(@RequestBody MakeupBrushes brush) {
+        return itemService.addBrush(brush);
     }
 
-    @DeleteMapping(path = "/{id}")
-    public ResponseEntity<MakeupBrushes> deleteBrushes(@PathVariable("id") Integer brushesId) {
-        HttpStatus status = brushes.remove(brushesId) == null ? HttpStatus.NOT_FOUND : HttpStatus.OK;
 
-        return ResponseEntity.status(status).build();
+    @PutMapping()
+    public Object updateBrush(@RequestBody MakeupBrushes brush) {
+        if (itemService.getBrush(brush.getId()) != null) {
+            return itemService.updateBrush(brush);
+        } else {
+            return new ResponseEntity<MakeupBrushes>(HttpStatus.NOT_FOUND);
+        }
     }
 
-    @PutMapping(path = "/{id}")
-    public MakeupBrushes updateBrushes(final @PathVariable("id") Integer brushesId, final @RequestBody MakeupBrushes brush) {
-        brush.setId(brushesId);
-        return this.brushes.put(brush.getId(), brush);
+    @DeleteMapping("/{id}")
+    public Object deleteBrush(@PathVariable(name = "id") Integer id) {
+        if (itemService.getBrush(id) != null) {
+            return itemService.deleteBrush(id);
+        } else {
+            return new ResponseEntity<MakeupBrushes>(HttpStatus.NOT_FOUND);
+        }
     }
+
 
 }
 

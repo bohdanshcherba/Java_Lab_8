@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 @ComponentScan("ua.lviv.iot.controllers")
+@ComponentScan("ua.lviv.iot.service")
+@ComponentScan("ua.lviv.iot.DAO")
+
 public class ShopApplication {
 
     public static void main(String[] args) {
