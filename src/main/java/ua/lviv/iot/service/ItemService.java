@@ -15,15 +15,15 @@ public class ItemService {
     @Autowired
     private ItemRepository itemRepository;
 
-    public List<MakeupBrushes> getAllBrushes(){
+    public List<MakeupBrushes> getAllBrushes() {
         return (List<MakeupBrushes>) itemRepository.findAll();
     }
 
-    public MakeupBrushes getBrush(Integer id){
+    public MakeupBrushes getBrush(Integer id) {
         return itemRepository.findById(id).orElse(null);
     }
 
-    public MakeupBrushes addBrush(MakeupBrushes brush){
+    public MakeupBrushes addBrush(MakeupBrushes brush) {
         itemRepository.save(brush);
         return brush;
     }
