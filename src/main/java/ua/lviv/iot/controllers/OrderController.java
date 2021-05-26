@@ -13,7 +13,7 @@ import java.util.*;
 @RequestMapping(path = "/brushes")
 public class OrderController {
 
-    @Autowired(required = false)
+    @Autowired(required = true)
     private ItemService itemService;
 
     @GetMapping
